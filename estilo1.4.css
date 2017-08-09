@@ -1,0 +1,114 @@
+body{
+	background-color: white;
+	font-size: 16px;
+	background: url("http://st.gde-fon.com/wallpapers_original/185893_most_priroda_les_propast_2560x1440_www.Gde-Fon.com.jpg") top center;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: cover;
+}
+
+header{
+/*	background-color: rgba();*/
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	border-radius: 100px;
+	text-align: center;
+	color: white;
+	box-shadow: 0px 20px 30px #888;
+	text-shadow: 0px 1px 50px orange;
+	margin: 0 auto;	
+	height: 100px;
+	width: 600px;
+}
+
+.box{
+	width: 100px;
+	height: 100px;
+	background-color: rgba(255, 255, 255, 0.4);
+	display: inline-block;
+	margin: 10px;
+	line-height:100px;
+}
+
+
+.box:hover{ animation:animacaoHover 1s 0.1s infinite ;font-size:1.4em;}
+
+.box:active{
+/*	border:5px solid black;
+	animation-direction:  alternate;
+	border-radius: 100px;
+	transition: border 0.1s 0.1s;
+	background: white;
+	text-decoration: none;*/
+	background: red; 
+}
+
+.especial{
+	background: rgba(0, 255, 0, 0.5);
+	border:  2px dashed black;
+}
+
+a{
+	font-family: ;
+	font-size: 1em;
+	text-decoration: none;
+	color: white;
+	text-shadow: 0px 1px 5px green;
+}
+
+@keyframes animacaoHover{
+	from  {transform:rotate(0deg)}
+	to{transform:rotate(360deg)}
+}
+
+.caixa{
+
+	border: 1px solid white;
+	width: 110px;
+	margin-top: 5px;
+	text-align: center;
+	position: relative;
+	margin: 0 auto; 
+	display: inline-block;
+}
+
+#menuHorizontal{
+	text-align: right;
+	margin: 40px 30px 0px 10px;
+	font-size: 1.1em;
+
+}
+
+#menuAulas{
+	text-align: center;
+	text-decoration: none;
+	background-color: rgba(255, 255, 255, 0.2);
+
+	
+}
+
+#menuAulas h1	{color: white;}
+#menuAulas li 	{text-decoration: none; }
+#menuAulas li:hover		{border: 1px solid white; background-color:#000; color: white;}
+#menuAulas li:active	{background: red;}
+#menuAulas li:link 		{color:black;}
+#menuAulas li:visited	{color:black;}
+			
+
+/*#canvas{border: 1px solid white;}*/
+					
+
+footer{
+	color: white;
+	text-shadow:1px 1px 5px black;
+	position: relative;
+	bottom: 0;
+	margin-top: 50px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	width: 100%;
+	height: 70px;
+	background: rgba(0, 0, 0, 0.7);
+}
+
+
